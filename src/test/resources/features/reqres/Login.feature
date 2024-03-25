@@ -1,6 +1,6 @@
 Feature: Test API Login
 
-  @Tugas
+  @tugas
   Scenario: Post login successfully
 
     Given login user with valid email and password with json "LoginUserJsonSchema.json"
