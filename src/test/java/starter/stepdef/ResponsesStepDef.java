@@ -66,10 +66,7 @@ public class ResponsesStepDef {
                 .body(ReqresResponses.JOB,equalTo(job));
     }
 
-    @And("Response body should be data id {int}")
-    public void responseBodyShouldBeData(int id) {
-        SerenityRest.and().body(ReqresResponses.DATA_ID, equalTo(id));
-    }
+
 
     @And("Response body should shown error {string}")
     public void responseBodyShouldShownError(String error) {
